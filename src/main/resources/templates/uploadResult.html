@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OCR Processing Result</title>
+</head>
+<body>
+    <h1>OCR Processing Result</h1>
+    <p><strong>Extracted Text:</strong></p>
+    <p th:text="${ocrResult}"></p> <!-- Thymeleaf에서 ocrResult 값을 출력 -->
+    <br><br>
+    <a href="/ocr/upload">Upload Another Image</a>
+</body>
+</html>
